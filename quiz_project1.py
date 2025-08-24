@@ -1,4 +1,4 @@
-
+#this part is done by absishat
 Qn = """Question text? a. Option A b. Option B c. Option C d. Option D"""
 Q1 = """Which organelle is responsible for ATP synthesis? a. Golgi Apparatus b. Ribosome c. Mitochondria d. Lysosome"""
 Q2 = """Which phase of meiosis is characterized by crossing over? a. Prophase I b. Anaphase I c. Metaphase II d. Telophase II"""
@@ -99,4 +99,63 @@ Q92 = """What does the second law of motion state? a. An object in motion stays 
 Q93 = """Which of the following is a vector quantity? a. Speed b. Mass c. Displacement d. Energy"""
 Q94 = """What is the period of a wave if the frequency is 50 Hz? a. 2 s b. 0.02 s c. 0.5 s d. 1 s"""
 Q95 = """Which law explains the relationship between the pressure and volume of a gas at constant temperature? a. Boyls Law b. CharlesLaw c. Avogadros Law d. Daltons Law"""
-Q96 = """What is the force of gravity on a 10 kg object on Earth? a. 10 N b. 100 N c. 50 N d. 9.8 N"""
+
+#this part is done by zemikael
+
+questions = {
+
+    Q1:'b', Q2:'a', Q3:'c', Q4:'a', Q5:'d',
+    Q6:'b', Q7:'c', Q8:'c', Q9:'b', Q10:'c',
+    Q11:'b', Q12:'c', Q13:'b', Q14:'d', Q15:'b',
+    Q16:'b', Q17:'c', Q18:'c', Q19:'c', Q20:'b',
+    Q21:'b', Q22:'b', Q23:'b', Q24:'b', Q25:'b',
+    Q26:'a', Q27:'d', Q28:'b', Q29:'c', Q30:'c',
+    Q31:'a', Q32:'b', Q33:'b', Q34:'c', Q35:'c',
+    Q36:'a', Q37:'c', Q38:'a', Q39:'a', Q40:'a',
+    Q41:'a', Q42:'a', Q43:'a', Q44:'a', Q45:'a',
+    Q46:'a', Q47:'a', Q48:'c', Q49:'a', Q50:'a',
+    Q51:'c', Q52:'a', Q53:'b', Q54:'b', Q55:'b',
+    Q56:'c', Q57:'c', Q58:'a', Q59:'c', Q60:'b',
+    Q61:'a', Q62:'b', Q63:'a', Q64:'c', Q65:'b',
+    Q66:'c', Q67:'b', Q68:'a', Q69:'a', Q70:'a',
+    Q71:'c', Q72:'a', Q73:'b', Q74:'c', Q75:'a',
+    Q76:'a', Q77:'a', Q78:'a', Q79:'a', Q80:'b',
+    Q81:'b', Q82:'b', Q83:'b', Q84:'b', Q85:'a',
+    Q86:'a', Q87:'b', Q88:'c', Q89:'d', Q90:'b',
+    Q91:'a', Q92:'b', Q93:'c', Q94:'b', Q95:'a',
+    Q96:'b',
+}
+print("Welcome to General Quiz")
+print("prepaired by group(zemi,bura,absishat,medhanit,kalkidan)")
+name = input("Enter your full name: ")
+print(f"Dear {name}, Welcome to Exam Hall")
+print("Please ready carefully the following instructions")
+print("Instr. 1: Don't forgot to write your full name")
+
+mark = 0
+list = ['a', 'b', 'c', 'd']
+for item in questions:
+    print(item)
+    answer = input("Choose the correct answer a/b/c/d: ").lower()
+
+    if answer==questions[item]:
+        print(f" {answer} is correct answer, you got 2 pts.")
+        mark = mark+2
+    else:
+        print(f"{answer} is incorrect, {questions[item]} is the correct answer")
+        mark = mark
+if mark >= 90:
+    print(f"{mark}/100, Excellent")
+elif mark >=80:
+    print(f"{mark}/100, V.good!")
+elif mark >=75:
+    print(f"{mark}/100, Gooooood")
+elif mark >=55:
+    print(f"{mark}/100, Satisfactory")
+else:
+    print(f"{mark}/100, Failed")
+
+
+
+
+
