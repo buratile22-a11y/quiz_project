@@ -25,4 +25,30 @@ Q22 = """Which disease is caused by a recessive allele on chromosome 7? a. Hemop
 Q23 = """What is the basic unit of the nervous system? a. Axon b. Neuron c. Synapse d. Glial cell"""
 Q24 = """What type of selection favors the average phenotype? a. Disruptive b. Stabilizing c. Directional d. Artificial"""
 Q25 = """Which process removes introns from pre-mRNA? a. Capping b. Splicing c. Translation d. Replication"""
-#this part is done by absishat
+
+#this part is don by bura
+
+Q26 = """What is the derivative of ln(x)? a. 1/x b. ln(x) c. x d. e^x"""
+Q27 = """What is the determinant of a 2x2 matrix [[a, b], [c, d]]? a. ad+bc b. ab+cd c. ac-bd d. a-bc"""
+Q28 = """Which function is continuous but not differentiable at x = 0? a. x^2 b. |x| c. sin(x) d. e^x"""
+Q29 = """What is the integral of 1/x dx? a. ln(x) b. xln(x) c. ln|x| + C d. x^-1 + C"""
+Q30 = """Which number is irrational? a. 1/2 b. 3.14 c. √2 d. 4"""
+Q31 = """What is the sum of the first n natural numbers? a. n(n+1)/2 b. n^2 c. n(n-1)/2 d. n(n+2)/2"""
+Q32 = """What is the solution to the equation x^2 + 4x + 4 = 0? a. x = 2 b. x = -2 c. x = ±2 d. x = -1"""
+Q33 = """What is the limit of sin(x)/x as x approaches 0? a. 0 b. 1 c. ∞ d. undefined"""
+Q34 = """If f(x) = x^3, what is f(x)? a. 3x b. x^2 c. 3x^2 d. x^3"""
+Q35 = """What is the sum of an infinite geometric series with a=5, r=1/2? a. 10 b. 5 c. 2.5 d. ∞"""
+Q36 = """Which of the following defines a bijective function? a. One-to-one and onto b. Only onto c. Only one-to-one d. Constant"""
+Q37 = """What is the value of i^4? a. i b. -1 c. 1 d. -i"""
+Q38 = """What is the inverse of the function f(x) = 2x + 3? a. f⁻¹(x) = (x-3)/2 b. f⁻¹(x) = 2x-3 c. f⁻¹(x) = x/2+3 d. f⁻¹(x) = 1/(2x+3)"""
+Q39 = """Which of the following is not a vector quantity? a. Force b. Displacement c. Work d. Velocity"""
+Q40 = """Which is true for a function to be convex? a. f(x) > 0 b. f(x) < 0 c. f(x) = 0 d. f(x) = 0"""
+Q41 = """If log_b(a) = c, what is a? a. b^c b. c^b c. b/c d. log(bc)"""
+Q42 = """What is the range of sin(x)? a. [-1, 1] b. [0, π] c. [0, 1] d. (-∞, ∞)"""
+Q43 = """Which is the solution set of |x - 2| < 5? a. (-3, 7) b. (-5, 5) c. (2, 5) d. (-2, 2)"""
+Q44 = """How many permutations of the word 'MATH' are there? a. 24 b. 4 c. 16 d. 12"""
+Q45 = """What is the binomial coefficient C(5, 2)? a. 10 b. 5 c. 20 d. 15"""
+Q46 = """If A ∩ B = ∅, what are sets A and B? a. Disjoint b. Equal c. Subsets d. Complements"""
+Q47 = """What is the sum of angles in a pentagon? a. 540° b. 360° c. 720° d. 180°"""
+Q48 = """Which is not a valid probability? a. 0 b. 0.5 c. 1.2 d. 1"""
+
